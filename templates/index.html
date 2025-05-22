@@ -1,0 +1,842 @@
+{% extends "layout.html" %} {% load static %} {% block title %}
+
+<title>Home | Document</title>
+
+{% endblock title %} {% block mainContent %}
+<div class="container">
+  <div class="sub-cont">
+    <div class="f1">
+      <p>POSTED ON <span style="font-weight: 900">STARTUP</span></p>
+    </div>
+
+    <p class="f2">Step-by-step guide to choosing <br />great font pairs</p>
+    <p class="f3">
+      By <span style="color: #ffd050">James West</span> | May 23, 2022
+    </p>
+    <p class="f4">
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu <br />fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+      non proident.
+    </p>
+
+    <button class="btn">Read More ></button>
+  </div>
+</div>
+
+<div class="p2">
+  <div class="featured-Post">
+    <h2
+      style="
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+      "
+    >
+      Featured Post
+    </h2>
+
+    <div class="card1">
+      <img src=" {% static "bulding.png" %} " style="width: 100%; margin-bottom:
+      20px; " alt="">
+      <p style="margin-bottom: 20px">
+        By
+        <span
+          style="
+            color: #592ea9;
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0px;
+          "
+        >
+          John Doe</span
+        >
+        l May 23, 2022
+      </p>
+
+      <div class="lpc">
+        <h3
+          style="
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </h3>
+        <p
+          style="
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0px;
+            color: #6d6e76;
+            margin-bottom: 20px;
+          "
+        >
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident.
+        </p>
+
+        <button class="btn">Read More ></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card2">
+    <div class="all-posts">
+      <h2
+        style="
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          letter-spacing: -2px;
+        "
+      >
+        All Posts
+      </h2>
+
+      <a
+        href=" {% url "blogPost" %} "
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-decoration: none;
+        "
+      >
+        view all
+      </a>
+    </div>
+
+    <div class="john-doe">
+      <div class="j1">
+        <p>
+          By
+          <span
+            style="
+              color: #592ea9;
+              font-family: Inter;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: 0px;
+            "
+          >
+            John Deo</span
+          >
+          l Aug 23, 2021
+        </p>
+        <h4
+          style="
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0px;
+          "
+        >
+          8 Figma design systems that you can download for free today.
+        </h4>
+      </div>
+
+      <div class="j2">
+        <p>
+          By
+          <span
+            style="
+              color: #592ea9;
+              font-family: Inter;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: 0px;
+            "
+          >
+            John Deo</span
+          >
+          l Aug 23, 2021
+        </p>
+        <h4
+          style="
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0px;
+          "
+        >
+          8 Figma design systems that you can download for free today.
+        </h4>
+      </div>
+
+      <div class="j3">
+        <p>
+          By
+          <span
+            style="
+              color: #592ea9;
+              font-family: Inter;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: 0px;
+            "
+          >
+            John Deo</span
+          >
+          l Aug 23, 2021
+        </p>
+        <h4
+          style="
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0px;
+          "
+        >
+          8 Figma design systems that you can download for free today.
+        </h4>
+      </div>
+
+      <div class="j4">
+        <p>
+          By
+          <span
+            style="
+              color: #592ea9;
+              font-family: Inter;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: 0px;
+            "
+          >
+            John Deo</span
+          >
+          l Aug 23, 2021
+        </p>
+        <h4
+          style="
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0px;
+          "
+        >
+          8 Figma design systems that you can download for free today.
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="abu">
+  {% comment %} color{% endcomment %}
+  <div class="cols">
+    <div class="yellow"></div>
+    <div class="purple"></div>
+  </div>
+
+  
+
+  {% comment %} card {% endcomment %}
+
+  <div class="Abu">
+    <div class="Abu-crd1">
+      <p
+        style="
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 3px;
+          margin-bottom: 20px;
+        "
+      >
+        ABOUT US
+      </p>
+      <h2
+        style="
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          letter-spacing: -2px;
+          margin-bottom: 20px;
+        "
+      >
+        We are a community of content writers who share their learnings
+      </h2>
+      <p
+        style="
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          margin-bottom: 20px;
+          color: #6d6e76;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+
+      <a
+        href=""
+        style="
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 32px;
+          letter-spacing: 0px;
+          text-decoration: none;
+        "
+        >Read More></a
+      >
+    </div>
+
+    <div class="Abu-crd2">
+      <p
+        style="
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 3px;
+          margin-bottom: 20px;
+        "
+      >
+        OUR MISSION
+      </p>
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          letter-spacing: -2px;
+          margin-bottom: 20px;
+        "
+      >
+        Creating valuable content for creatives all around the world
+      </h3>
+      <p
+        style="
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          color: #6d6e76;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="catagory">
+  <h2
+    style="
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: -2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    Choose A Catagory
+  </h2>
+
+  <div  class="cty-cards">
+
+    <a href=" {% url "category" %} " style="text-decoration:none;
+     color:black;
+    ">
+
+      <div class="cty1" >
+        <img src=" {% static "Icon.png" %} " alt="">
+        <h3
+          style="
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: -1px;
+          "
+        >
+          Business
+        </h3>
+  
+        <p
+          style="
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0px;
+            color: #6d6e76;
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </p>
+      </div>
+    </a>
+
+    <div class="cty2">
+      <img src=" {% static "Group-9201.png" %} " alt="">
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -1px;
+        "
+      >
+        Startup
+      </h3>
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          color: #6d6e76;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </p>
+    </div>
+    <div class="cty3">
+      <img src=" {% static "Icon (1).png" %} " alt="">
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -1px;
+        "
+      >
+        Economy
+      </h3>
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          color: #6d6e76;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </p>
+    </div>
+    <div class="cty4">
+      <img src=" {% static "business-and-trade 1.png" %} " alt="">
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -1px;
+        "
+      >
+        Technology
+      </h3>
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          color: #6d6e76;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="div">
+  <div class="whywestrt">
+    <div class="itst">
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+        "
+      >
+        Why we started
+      </p>
+
+      <h1
+        style="
+          {% comment %} font-family: Sen; {% endcomment %}
+          font-weight: 700;
+          font-size: 47px;
+          line-height: 64px;
+          letter-spacing: -2px;
+        "
+      >
+        It started out as a simple idea and evolved into our passion
+      </h1>
+
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          color: #6d6e76;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+      </p>
+
+      <button
+        class="btn"
+        style="
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: 0px;
+        "
+      >
+        Discover our story >
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<div class="list-of-authors">
+  <h2
+    style="
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: -2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    List of Authors
+  </h2>
+
+  <div class="lisofauthors-cards">
+    <a href=" {% url "authors" %} " style="text-decoration:none; color:black;">
+      <div class="loa1">
+        <img src=" {% static "man-in-yellow.png" %} " alt="">
+        <h3
+          style="
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: -1px;
+            margin-top: 20px;
+          "
+        >
+          Floyd Miles
+        </h3>
+  
+        <p
+          style="
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #6d6e76;
+            margin-top: 10px;
+          "
+        >
+          Content Writer @Company
+        </p>
+        <div class="fnta">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </a>
+
+    <div class="loa2">
+      <img src=" {% static "woman-in-white.png" %} " alt="">
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -1px;
+          margin-top: 20px;
+        "
+      >
+        Dianne Russell
+      </h3>
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: center;
+          color: #6d6e76;
+          margin-top: 10px;
+        "
+      >
+        Content Writer @Company
+      </p>
+      <div class="fnta">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+
+    <div class="loa3">
+      <img src=" {% static "fashion-woman.png" %} " alt="">
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -1px;
+          margin-top: 20px;
+        "
+      >
+        Jenny Wilson
+      </h3>
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: center;
+          color: #6d6e76;
+          margin-top: 10px;
+        "
+      >
+        Content Writer @Company
+      </p>
+      <div class="fnta">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+
+    <div class="loa4">
+      <img src=" {% static "content-baker.png" %} " alt="">
+      <h3
+        style="
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 40px;
+          letter-spacing: -1px;
+          margin-top: 20px;
+        "
+      >
+        Leslie Alexander
+      </h3>
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: center;
+          color: #6d6e76;
+          margin-top: 10px;
+        "
+      >
+        Content Writer @Company
+      </p>
+      <div class="fnta">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="logoc">
+  <div class="logo-component">
+    <img src=" {% static "Logo component.png" %}" alt="">
+  </div>
+</div>
+
+<div class="tst">
+  <div class="testimonials">
+    <div class="tes1">
+      <p
+        style="
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+        "
+      >
+        TESTIMONIALs
+      </p>
+
+      <h2
+        style="
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          letter-spacing: -2px;
+          margin-top: 20px;
+        "
+      >
+        What people say about our blog
+      </h2>
+
+      <p
+        style="
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          margin-top: 20px;
+          color: #232536;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor.
+      </p>
+    </div>
+
+    <div class="tes2">
+      <h4
+        style="
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: 0px;
+        "
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </h4>
+
+      <div class="jon">
+        <div class="jna">
+          <img src=" {% static "Profile picture.png" %} " alt="">
+          <div class="txt">
+            <h4
+              style="
+                font-family: Sen;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0px;
+              "
+            >
+              Jonathan Vallem
+            </h4>
+
+            <p
+              style="
+                font-family: Inter;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0px;
+                color: #6d6e76;
+              "
+            >
+              New york, USA
+            </p>
+          </div>
+        </div>
+
+        <div class="arrows">
+          <div class="warow"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="barow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="join">
+  <div class="jdiv">
+    <h2
+      style="
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+        text-align: center;
+      "
+    >
+      Join our team to be a part <br />
+      of our story
+    </h2>
+
+    <p
+      style="
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+      "
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt.
+    </p>
+
+    <button
+      class="btn"
+      style="
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0px;
+      "
+    >
+      Join Now
+    </button>
+  </div>
+</div>
+
+{% endblock mainContent %}

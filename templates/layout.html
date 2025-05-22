@@ -1,0 +1,158 @@
+ {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {% block title %}
+    
+    <title>Home | Document</title>
+    {% endblock title %}
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% block style %} 
+    {% endblock style %}
+    <link rel="stylesheet" href=" {% static "style.css" %} ">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>{Finsweet</h1>
+        </div>
+
+        <div class="navlists">
+          <ul>
+            <li><a href=" {% url "home" %} "  class="{% if request.path == '/' %}active{% endif %}">Home</a></li>
+            <li><a href=" {% url "blog" %} " class="{% if request.path == '/blog/' %}active{% endif %}" >Blog</a></li>
+            <li><a href=" {% url "Aboutus" %}" class="{% if request.path == '/Aboutus/' %}active{% endif %}">About Us</a></li>
+            <li><a href=" {% url "contactus" %} " class="{% if request.path == '/contactus/' %}active{% endif %}" >Contact us</a></li>
+          </ul>
+
+          
+
+            <button>Subscribe</button>
+            
+            
+          </div>
+          <details class="dt">
+            <summary><i style="color:white;" class="fa-solid fa-bars"></i></summary>
+           <div class="navlists2">
+            <ul>
+              <li><a href=" {% url "home" %} "class="{% if request.path == '/' %}active{% endif %}" >Home</a></li>
+              <li><a href=" {% url "blog" %} " class="{% if request.path == '/blog/' %}active{% endif %}"  >Blog</a></li>
+              <li><a href=" {% url "Aboutus" %} " class="{% if request.path == '/Aboutus/' %}active{% endif %}" >About Us</a></li>
+              <li><a href=" {% url "contactus" %} "  class="{% if request.path == '/contactus/' %}active{% endif %}">Contact us</a></li>
+            </ul>
+            <button>Subscribe</button>
+           </div>
+          </details>
+      </nav>
+    </header>
+
+    <main>
+        {% block mainContent %} 
+           
+        {% endblock mainContent %}
+    </main>
+
+  <footer>
+      <div class="futin">
+        <header>
+          <nav style=" padding:0px;
+          margin: 0px;
+          {% comment %} background-color: red; {% endcomment %}
+          ">
+            <div class="logo" style="margin: 0px;">
+              <h1>{Finsweet</h1>
+            </div>
+    
+            <div class="navlists" style="margin: 0px;">
+              <ul style="margin: 0px;">
+                <li><a href=" {% url "home" %} "  class="{% if request.path == '/' %}active{% endif %}">Home</a></li>
+                <li><a href=" {% url "blog" %} " class="{% if request.path == '/blog/' %}active{% endif %}" >Blog</a></li>
+                <li><a href=" {% url "Aboutus" %}" class="{% if request.path == '/Aboutus/' %}active{% endif %}">About Us</a></li>
+                <li><a href=" {% url "contactus" %} " class="{% if request.path == '/contactus/' %}active{% endif %}" >Contact us</a></li>
+                <li><a href=" {% url "privacypolicy" %} " class="{% if request.path == '/privacypolicy/' %}active{% endif %}">Privacy Policy</a></li>
+              </ul>
+            
+            </div>
+
+            <details class="dt">
+              <summary><i style="color:white;" class="fa-solid fa-bars"></i></summary>
+             <div class="navlists2">
+              <ul>
+                <li><a href=" {% url "home" %} "  class="{% if request.path == '/' %}active{% endif %}">Home</a></li>
+                <li><a href=" {% url "blog" %} " class="{% if request.path == '/blog/' %}active{% endif %}" >Blog</a></li>
+                <li><a href=" {% url "Aboutus" %}" class="{% if request.path == '/Aboutus/' %}active{% endif %}">About Us</a></li>
+                <li><a href=" {% url "contactus" %} " class="{% if request.path == '/contactus/' %}active{% endif %}" >Contact us</a></li>
+                <li><a href=" {% url "privacypolicy" %} " class="{% if request.path == '/privacypolicy/' %}active{% endif %}">Privacy Policy</a></li>
+              </ul>
+              <button>Subscribe</button>
+             </div>
+             </details>
+    
+          </nav>
+        </header>
+    
+        <div class="sub-to-news">
+          <h2 style="
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -2px;
+            font-size: 33px;
+            vertical-align: middle;
+            color:white;
+            "
+          >Subscribe to our news letter to get latest updates and news</h2>
+    
+          <div class="inp">
+            <input type="email" placeholder="Enter Your Email" class="email-input" />
+          
+            <button class="btn" style="
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 24px;
+              letter-spacing: 0px;
+              margin: 0px;">
+              Subscribe
+            </button>
+          </div>
+        </div>
+    
+        <div class="contact-info">
+         <div class="pack">
+          <p style="font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          letter-spacing: 0px;
+          margin: 0;
+          padding: 0 0 5px;
+        "
+        >Finstreet 118 2561 Fintown</p>
+        <p style="font-family: Inter;
+          font-weight: 400;
+          font-size: 16px;
+          letter-spacing: 0px;
+          margin: 0;
+          padding: 0;
+          "
+        >Hello@finsweet.com  020 7993 2905</p>
+         </div>
+    
+    
+          <div class="fnta">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </footer> 
+  </body>
+</html>

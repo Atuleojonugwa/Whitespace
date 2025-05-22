@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+}
+:root{
+    --font:"Sen", sans-serif;
+    --yellow:#ffd050;
+    --black:#232536;
+    --grey:#6D6E76;
+    --purple:#592EA9;
+    --light-yellow:#FBF6EA;
+    --dark-yellow:#EDC14A;
+    --lavender:#F4F0F8;
+    --light-grey:#F4F4F4;
+    --white:#FFFFFF;
+    --dark-grey:#4C4C4C;
+    --light-black:#161722;
+    --kin-grey:#C1C1C3;
+}
+
+/* authors styling begins */
+.authors{
+    background-color: var(--lavender);
+    padding: 120px 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    /* border: 20px solid black; */
+}
+.cols2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 621px;
+    left: 150px;
+}
+.yellow2{
+    width: 700px;
+    background-color: var(--yellow);
+    height: 24px;
+}
+.purple2{
+    width: 300px;
+    background-color: var(--purple);
+    height: 24px;
+}
+
+img{
+    object-fit: cover;
+}
+.writeup{
+    padding:30px 0;
+}
+
+.myposts{
+    padding: 120px 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+.my1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .authors{
+        background-color: var(--lavender);
+        padding: 50px 25px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        /* border: 20px solid black; */
+    }
+    
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .writeup{
+        padding:30px 0px;
+
+        h1{
+            font-size: 24px !important;
+            line-height: 32px !important;
+        }
+    }
+    
+
+
+    .myposts{
+        padding: 50px 25px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 35px;
+        h1{
+            font-size: 24px !important;
+            line-height: 32px !important;
+        }
+    }
+    .mywrtup{
+        h2{
+            font-size: 20px !important;
+            line-height: 24px !important;
+        }
+    }
+    .my1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 30px;
+    }
+}
