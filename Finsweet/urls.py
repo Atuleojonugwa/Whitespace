@@ -32,3 +32,5 @@ urlpatterns = [
     path("contactus/", views.contactus, name="contactus"),
     path("privacypolicy/", views.privacypolicy, name="privacypolicy"),
 ]
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
