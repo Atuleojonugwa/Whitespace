@@ -30,23 +30,25 @@ body{
     margin: 100px auto;
 }
 
-@media screen  and (max-width:767px) {
+@media screen  and (max-width:769px) {
     .pripol{
         background-color: var(--lavender);
-        padding: 30px 10px;
+        padding: 30px 25px;
 
         h1{
-            text-align: start !important;
+            /* text-align: center !important; */
             font-size: 20px !important;
             margin-bottom: 0px !important;
         }
         p{
-            text-align: start !important;
+            text-align: center !important;
+            text-justify: distribute-all-lines;
         }
     }
     .priwrt{
         width: 100%;
-        margin: 100px 10px;
+        margin: 0px 0px ;
+        padding: 50px 25px;
         
         h1, h2{
             font-size: 20px !important;

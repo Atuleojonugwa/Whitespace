@@ -72,7 +72,7 @@ img{
     gap: 30px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:769px) {
     .authors{
         background-color: var(--lavender);
         padding: 50px 25px;
@@ -121,5 +121,25 @@ img{
         flex-direction: column;
         /* align-items: center; */
         gap: 30px;
+    }
+
+
+    .cols2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1222px;
+        left: 150px;
+    }
+    .yellow2{
+        width: 350px;
+        background-color: var(--yellow);
+        height: 24px;
+    }
+    .purple2{
+        width: 150px;
+        background-color: var(--purple);
+        height: 24px;
     }
 }

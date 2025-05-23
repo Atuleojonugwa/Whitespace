@@ -105,7 +105,7 @@ body{
     color: var(--black);
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:769px) {
     .category{
         background-color: var(--lavender);
         padding: 50px 25px;
