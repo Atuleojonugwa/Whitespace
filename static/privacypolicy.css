@@ -42,7 +42,7 @@ body{
         }
         p{
             text-align: center !important;
-            text-justify: distribute-all-lines;
+
         }
     }
     .priwrt{
@@ -53,6 +53,9 @@ body{
         h1, h2{
             font-size: 20px !important;
             line-height: 28px !important;
+        }
+        p{
+            text-align: justify !important  ;
         }
     } 
 }
