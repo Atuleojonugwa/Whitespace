@@ -773,12 +773,59 @@ footer{
 
 @media screen and (min-width:1440px){
     .p2{
-        padding: 80px 200px;
+        /* padding: 80px 200px; */
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .abu{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .catagory{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .div{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .list-of-authors{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .logoc{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .tst{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .join{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    footer{
+        width: 1440px;
+        margin: 0 auto;
+        
+        .futin{
+            margin-top: 100px;
+        }
+        /* nav{
+            width: 200px;
+        } */
+    }
+    header{
+        width: 1440px;
+        margin: 0 auto; 
     }
     .whywestrt{
-        /* position: absolute; */
         width: 100%;
-        /* position: absolute; */
     }
     .itst{
         position: relative;

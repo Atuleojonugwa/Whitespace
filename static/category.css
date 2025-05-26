@@ -105,7 +105,7 @@ body{
     color: var(--black);
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:1022px) {
     .category{
         background-color: var(--lavender);
         padding: 50px 25px;
@@ -202,5 +202,17 @@ body{
         font-size: 14px;
         font-weight: 700;
         color: var(--black);
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .category{
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .all-cards2{
+        width: 1440px;
+        margin: 0 auto;
     }
 }

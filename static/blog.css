@@ -83,7 +83,6 @@ body{
 .h1{
     margin: 80px 50px 0 ;
     padding-bottom: 30px;
-    /* background-color: red; */
     border-bottom: 1px solid var(--grey);
 }
 /* h1 styling ends  */
@@ -96,14 +95,9 @@ body{
    display: flex;
    align-items: center;
    margin-bottom: 60px;
-   /* justify-content: center; */
 }
 .all-crd-wrtup{
     padding: 50px 30px;
-    /* display: flex; */
-    /* align-items: start;
-    justify-content: center;
-    flex-direction: column; */
 }
 /* all-cards styling ends */
 
@@ -121,7 +115,7 @@ body{
 /* blog styling ends  */
 
 
-@media screen  and (max-width:769px) {
+@media screen  and (max-width:1022px) {
     .container2{
         background-color: var(--lavender);
         width: 100%;
@@ -152,6 +146,10 @@ body{
         padding-bottom: 15px;
         text-align: center;
         border-bottom: 1px solid var(--grey);
+
+        h1{
+            font-size: 24px !important;
+        }
     }
 
 
@@ -182,4 +180,28 @@ body{
         padding: 0;
         font-size: 18px !important;
     }
+}
+
+@media screen and (min-width:1500px) {
+    .container2{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .h1{
+        width: 1440px;
+        margin: 40px auto 0;
+    }
+    .all-cards{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .button{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .catagory{
+        width: 1440px;
+        margin: 0 auto;
+    }
+
 }

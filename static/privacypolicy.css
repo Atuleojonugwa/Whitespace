@@ -28,6 +28,7 @@ body{
 .priwrt{
     width: 800px;
     margin: 100px auto;
+    text-align: justify;
 }
 
 @media screen  and (max-width:769px) {
@@ -58,4 +59,16 @@ body{
             text-align: justify !important  ;
         }
     } 
+}
+
+@media screen and (min-width:1500px) {
+    .pripol{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .priwrt{
+        width: 1440px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
 }

@@ -23,13 +23,19 @@ body{
 }
 
 /* authors styling begins */
+.new{
+    width: 100%;
+    position: relative;
+}
+
+
 .authors{
     background-color: var(--lavender);
     padding: 120px 150px;
     display: flex;
     justify-content: center;
     gap: 30px;
-    position: relative;
+    /* position: relative; */
     /* border: 20px solid black; */
 }
 .cols2{
@@ -37,8 +43,10 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 621px;
-    left: 150px;
+    /* top: 633px; */
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
 }
 .yellow2{
     width: 700px;
@@ -72,7 +80,7 @@ img{
     gap: 30px;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:1022px) {
     .authors{
         background-color: var(--lavender);
         padding: 50px 25px;
@@ -125,12 +133,7 @@ img{
 
 
     .cols2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 1222px;
-        left: 150px;
+        display: none;
     }
     .yellow2{
         width: 350px;
@@ -141,5 +144,21 @@ img{
         width: 150px;
         background-color: var(--purple);
         height: 24px;
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    .authors{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .cols2{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .myposts{
+        width: 1440px;
+        margin: 0 auto;
     }
 }
