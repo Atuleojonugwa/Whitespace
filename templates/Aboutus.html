@@ -94,7 +94,7 @@
       </p>
 
       <a
-        href=""
+        href="{% url "Aboutus" %}"
         style="
           font-weight: 700;
           font-size: 18px;
@@ -264,6 +264,7 @@
   
     <div class="lisofauthors-cards2">
       <div class="loa12">
+       <a  href=" {% url "authors" %} " style="text-decoration:none; color:black;">
         <img src=" {% static "man-in-yellow.png" %} " alt="">
         <h3
           style="
@@ -298,10 +299,12 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+       </a>
       </div>
   
       <div class="loa22">
-        <img src=" {% static "woman-in-white.png" %} " alt="">
+        <a href=" {% url "authors" %} " style="text-decoration:none; color:black;">
+          <img src=" {% static "woman-in-white.png" %} " alt="">
         <h3
           style="
             font-weight: 700;
@@ -333,9 +336,11 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        </a>
       </div>
   
       <div class="loa32">
+       <a href="{% url "authors" %}" style="text-decoration:none; color:black;">
         <img src=" {% static "fashion-woman.png" %} " alt="">
         <h3
           style="
@@ -368,10 +373,12 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+       </a>
       </div>
   
       <div class="loa42">
-        <img src=" {% static "content-baker.png" %} " alt="">
+        <a  href=" {% url "authors" %} " style="text-decoration:none; color:black;">
+          <img src=" {% static "content-baker.png" %} " alt="">
         <h3
           style="
             font-weight: 700;
@@ -403,10 +410,12 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        </a>
       </div>
 
       <div class="loa5">
-        <img src=" {% static "content-baker.png" %} " alt="">
+        <a href="{% url "authors" %}" style="text-decoration:none; color:black;">
+          <img src=" {% static "content-baker.png" %} " alt="">
         <h3
           style="
             font-weight: 700;
@@ -438,10 +447,12 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        </a>
       </div>
 
       <div class="loa6">
-        <img src=" {% static "content-baker.png" %} " alt="">
+        <a href="{% url "authors" %}" style="text-decoration:none; color:black;">
+          <img src=" {% static "content-baker.png" %} " alt="">
         <h3
           style="
             font-weight: 700;
@@ -473,10 +484,12 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        </a>
       </div>
 
       <div class="loa7">
-        <img src=" {% static "content-baker.png" %} " alt="">
+        <a href="{% url "authors" %}" style="text-decoration:none; color:black;">
+          <img src=" {% static "content-baker.png" %} " alt="">
         <h3
           style="
             font-weight: 700;
@@ -508,10 +521,12 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        </a>
       </div>
 
       <div class="loa8">
-        <img src=" {% static "content-baker.png" %} " alt="">
+        <a href="{% url "authors" %}" style="text-decoration:none; color:black;">
+          <img src=" {% static "content-baker.png" %} " alt="">
         <h3
           style="
             font-weight: 700;
@@ -543,6 +558,7 @@
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        </a>
       </div>
     </div>
   </div>
@@ -578,7 +594,8 @@
       tempor incididunt.
     </p>
 
-    <button
+    <a href="{% url "contactus" %}">
+      <button
       class="btn"
       style="
         font-weight: 700;
@@ -589,6 +606,7 @@
     >
       Join Now
     </button>
+    </a>
   </div>
 </div>
 

@@ -19,7 +19,7 @@
       non proident.
     </p>
 
-    <button class="btn">Read More ></button>
+    <a href=" {% url "Aboutus" %} "><button class="btn">Read More ></button></a>
   </div>
 </div>
 
@@ -84,7 +84,7 @@
           proident.
         </p>
 
-        <button class="btn">Read More ></button>
+        <a href=" {% url "blog" %} "><button class="btn">Read More ></button></a>
       </div>
     </div>
   </div>
@@ -288,7 +288,7 @@
       </p>
 
       <a
-        href=""
+        href="{% url "Aboutus" %}"
         style="
           font-weight: 700;
           font-size: 18px;
@@ -387,10 +387,11 @@
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         </p>
       </a>
-      </div>
+    </div>
 
     <div class="cty2">
-      <img src=" {% static "Group-9201.png" %} " alt="">
+      <a href="{% url "category" %}"  style="text-decoration:none; color:black;" >
+        <img src=" {% static "Group-9201.png" %} " alt="">
       <h3
         style="
           font-weight: 700;
@@ -413,9 +414,11 @@
       >
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
       </p>
+      </a>
     </div>
     <div class="cty3">
-      <img src=" {% static "Icon (1).png" %} " alt="">
+      <a href="{% url "category" %}"  style="text-decoration:none; color:black;">
+        <img src=" {% static "Icon (1).png" %} " alt="">
       <h3
         style="
           font-weight: 700;
@@ -438,9 +441,11 @@
       >
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
       </p>
+      </a>
     </div>
     <div class="cty4">
-      <img src=" {% static "business-and-trade 1.png" %} " alt="">
+      <a href="{% url "category" %}"  style="text-decoration:none; color:black;"  >
+        <img src=" {% static "business-and-trade 1.png" %} " alt="">
       <h3
         style="
           font-weight: 700;
@@ -463,6 +468,7 @@
       >
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
       </p>
+      </a>
     </div>
   </div>
 </div>
@@ -513,6 +519,7 @@
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
       </p>
 
+      <a href="{% url "Aboutus" %}">
       <button
         class="btn"
         style="
@@ -524,6 +531,7 @@
       >
         Discover our story >
       </button>
+      </a>
     </div>
   </div>
 </div>
@@ -585,7 +593,8 @@
     </div>
         
     <div class="loa2">
-      <img src=" {% static "woman-in-white.png" %} " alt="">
+      <a href=" {% url "authors" %} " style="text-decoration:none; color:black;">
+        <img src=" {% static "woman-in-white.png" %} " alt="">
       <h3
         style="
           font-weight: 700;
@@ -617,10 +626,12 @@
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
       </div>
+      </a>
     </div>
 
     <div class="loa3">
-      <img src=" {% static "fashion-woman.png" %} " alt="">
+      <a href=" {% url "authors" %} " style="text-decoration:none; color:black;">
+        <img src=" {% static "fashion-woman.png" %} " alt="">
       <h3
         style="
           font-weight: 700;
@@ -652,9 +663,11 @@
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
       </div>
+      </a>
     </div>
 
     <div class="loa4">
+     <a href=" {% url "authors" %} " style="text-decoration:none; color:black;">
       <img src=" {% static "content-baker.png" %} " alt="">
       <h3
         style="
@@ -687,6 +700,7 @@
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
       </div>
+     </a>
     </div>
   </div>
 </div>
@@ -824,7 +838,8 @@
       tempor incididunt.
     </p>
 
-    <button
+    <a href="{% url "contactus" %}">
+      <button
       class="btn"
       style="
         font-weight: 700;
@@ -835,6 +850,7 @@
     >
       Join Now
     </button>
+    </a>
   </div>
 </div>
 
