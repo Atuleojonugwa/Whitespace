@@ -47,7 +47,6 @@ body{
 }
 .navlists a.active {
     border-bottom: 2px solid var(--yellow); 
-    /* color: blue; */
 }
 nav{
     /* background-color: red; */
@@ -197,22 +196,7 @@ button{
     background-color: var(--purple);
     height: 12px;
 }
-.Abu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:var(--lavender);
-    padding: 30px;
-}
-.Abu-crd1{
-    width: 50%;
-    padding: 20px;
-}
-.Abu-crd2{
-    width: 50%;
-    padding: 30px;
 
-}
 
 /* abu styling ends  */
 
@@ -479,91 +463,8 @@ footer{
 
 
 
-/* aboutus styling begins  */
-.main{
-    padding: 80px 50px;
-}
-/* Aboutus styling begins */
-.pp2{  
-    /* background-color: red; */
-    margin-left: auto;
-    padding: 70px 0;
-    width: 450px;
-    /* background-color: red; */
-    /* margin: auto; */
-    /* height: 356px;    */
-    /* padding: 60px 40px; */
-}
 
-.p{
-    position: absolute;
-    top: 160px;
-    left: 150px;
-    width: 600px;
-    height: 300px;
-    background-color: var(--white);
-    padding: 20px;
-    /* z-index: 5; */
-}
-/* Aboutus styling ends  */
 
-/* ourteam styling begins */
-.ourteam{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    margin-top: 80px;
-}
-.ourteam1{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.ourteam2{
-    width: 50%;
-
-    img{
-        width: 100%;
-    }
-} 
-/* .ourteam styling ends */
-
-/* list-of-authors2 styling begins */
-.list-of-authors2{
-  margin-top: 80px;
-}
-.lisofauthors-cards2{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* margin-top: 50px; */
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    padding:30px 0;
-    /* justify-items: center; */
-}
-.loa12, .loa22, .loa32, .loa42,  .loa5, .loa6, .loa7, .loa8{
-    /* border: 1px solid var(--grey); */
-    /* margin-left: 25px; */
-    padding: 30px 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    /* width: 300px; */
-}
-.loa12, .loa22, .loa32, .loa42, .loa5, .loa6, .loa7, .loa8{
-    background-color: var(--light-grey);
-}
-.loa2{
-    background-color: var(--light-yellow);
-}
-/* list-of-authors2 styling ends  */
-/* aboutus styling ends  */
 
 
 

@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+}
+:root{
+    --font:"Sen", sans-serif;
+    --yellow:#ffd050;
+    --black:#232536;
+    --grey:#6D6E76;
+    --purple:#592EA9;
+    --light-yellow:#FBF6EA;
+    --dark-yellow:#EDC14A;
+    --lavender:#F4F0F8;
+    --light-grey:#F4F4F4;
+    --white:#FFFFFF;
+    --dark-grey:#4C4C4C;
+    --light-black:#161722;
+    --kin-grey:#C1C1C3;
+}
+
+/* aboutus styling begins  */
+.main{
+    padding: 80px 50px;
+}
+/* Aboutus styling begins */
+.pp2{  
+    margin-left: auto;
+    padding: 70px 0;
+    width: 450px;
+}
+
+.p{
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    width: 600px;
+    height: 300px;
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.Abu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--lavender);
+    padding: 30px;
+}
+.Abu-crd1{
+    width: 50%;
+    padding: 20px;
+}
+.Abu-crd2{
+    width: 50%;
+    padding: 30px;
+
+}
+/* Aboutus styling ends  */
+
+/* ourteam styling begins */
+.ourteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+.ourteam1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ourteam2{
+    width: 50%;
+
+    img{
+        width: 100%;
+    }
+} 
+/* .ourteam styling ends */
+
+/* list-of-authors2 styling begins */
+.list-of-authors2{
+  margin-top: 80px;
+}
+.lisofauthors-cards2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding:30px 0;
+}
+.loa12, .loa22, .loa32, .loa42,  .loa5, .loa6, .loa7, .loa8{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.loa12, .loa22, .loa32, .loa42, .loa5, .loa6, .loa7, .loa8{
+    background-color: var(--light-grey);
+}
+.loa2{
+    background-color: var(--light-yellow);
+}
+/* list-of-authors2 styling ends  */
+/* aboutus styling ends  */
+
+@media screen and (max-width:1022px) {
+    .main{
+        padding: 40px 25px;
+    }
+    .pp2{  
+        margin-left: auto;
+        padding: 35px 0;
+        width: 100%;
+    }
+    .edf{
+        width: 100%;
+        height: 100%;
+    }
+    .p{
+        position:static;
+        width: 100%;
+        background-color: var(--white);
+        padding: 0px;
+        height: 100%;
+        margin-bottom: 20px;
+
+        h1{
+            font-size: 24px !important;
+            line-height: normal !important;
+        }
+    }
+
+
+    .Abu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:var(--lavender);
+        padding: 0px;
+        gap: 0px;
+    }
+    .Abu-crd1{
+        width: 100%;
+        padding: 20px;
+    }
+    .Abu-crd2{
+        width: 100%;
+        padding: 20px;
+    
+    }
+
+    .ourteam{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .ourteam1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h2{
+            font-size: 24px !important;
+        }
+        h4{
+            font-size: 20px !important;
+        }
+    }
+    .ourteam2{
+        width: 100%;
+        object-fit: cover;
+        margin: 0 !important;
+        img{
+            width: 100%;
+        }
+    } 
+
+
+    .list-of-authors2{
+        margin-top: 40px;
+        h2{
+            font-size: 24px !important;
+        }
+    }
+
+    .loa12, .loa22, .loa32, .loa42,  .loa5, .loa6, .loa7, .loa8{
+        h3{
+            font-size: 20px !important;
+        }
+    }
+   
+}
+
+@media screen and (min-width:830px) and (max-width:1440px) {
+    .lisofauthors-cards2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        padding:30px 0;
+    }
+
+    .loa12, .loa22, .loa32, .loa42,  .loa5, .loa6, .loa7, .loa8{
+        h3{
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .Aboutus{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .ert{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .Abu{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .ourteam{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .list-of-authors2{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .lisofauthors-cards2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        padding:30px 0;
+    }
+
+    .p{
+        left: 806px;
+    }
+}
