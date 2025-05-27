@@ -197,7 +197,22 @@ button{
     height: 12px;
 }
 
+.Abu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--lavender);
+    padding: 30px;
+}
+.Abu-crd1{
+    width: 50%;
+    padding: 20px;
+}
+.Abu-crd2{
+    width: 50%;
+    padding: 30px;
 
+}
 /* abu styling ends  */
 
 /* catagory styling begins  */
